@@ -30,8 +30,8 @@ function divide(number1,number2){
     return number1/number2;
 }
 function divideNumbers(){
-    let dividend=Number(document.querySelector('#add1').value);
-    let divisor=Number(document.querySelector('#add2').value);
+    let dividend=Number(document.querySelector('#dividend').value);
+    let divisor=Number(document.querySelector('#divisor').value);
     document.querySelector('#quotient').value = divide(dividend,divisor);
 }
 document.querySelector('#divideNumbers').addEventListener('click',divideNumbers);
